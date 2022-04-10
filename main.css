@@ -1,1 +1,77 @@
 /* Write your CSS code in this file */
+.container {
+    margin: 100px;
+    background: rgba(255, 255, 255, 0.855);
+    font-weight: bolder
+}
+
+h1 {
+    background-color: rgb(3, 3, 3) ;
+    padding: 50px;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin: 80px;
+    color: white
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;  
+   
+
+   
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    list-style-type: square;
+  
+}
+
+.submit {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 80px;
+    
+}
+
+input{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.1em 0.1em 0;
+    border:0.30em solid rgba(255,255,255,0);
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(74, 71, 71, 0.35);
+    text-align:center;
+
+}
+
+body {
+    background-image: url("https://www.spreadsheetweb.com/wp-content/uploads/2018/04/shutterstock_411289672-1080x675.jpg");
+}
+
+footer{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    font-weight:500;
+    
+}
+
+
+
