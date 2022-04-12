@@ -9,6 +9,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
       
       </style>
+      <script src='js/guessing-game.js'></script>
 
     <!-- the MAIN.CSS file is linked here -->
   </head>
@@ -20,12 +21,15 @@
     <h2>Guess a number between 1-100</h2>
 
     <h3>Previous Guesses</h3>
-    <ul>
-      <li>5</li>
-      <li>45</li>
-      <li>67</li>
-      <li>22</li>
-    </ul>
+    <div id='guesses'>
+      <ul id="guess-list">
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+      </ul>
+     </div>
   </div>
 
     <div class="submit">
@@ -36,11 +40,6 @@
   </div>
 
 
-
-
-
-    <!-- <script src='js/guessing-game.js'></script> -->
-    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
   </body>
   <footer>
     &copy; Paulina Cole | Fork at Github 

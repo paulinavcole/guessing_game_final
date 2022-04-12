@@ -122,7 +122,7 @@ describe('Game class', () => {
         );
       });
       it("if playersGuess isn't the winningNumber or a duplicate, add it to pastGuesses", () => {
-        game.winningNumber = 42;
+        game.winningNumber = 42;  
         game.playersGuessSubmission(36);
         expect(game.pastGuesses.indexOf(36)).toBeGreaterThan(-1);
       });
