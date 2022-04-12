@@ -1,87 +1,69 @@
-/* Write your CSS code in this file */
-.container {
-    margin: 100px;
-    background: rgba(255, 255, 255, 0.855);
-    font-weight: bolder
-}
-
-h1 {
-    background-color: rgb(3, 3, 3) ;
-    padding: 50px;  
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    margin: 80px;
-    color: white
-}
-
-h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;  
-   
-
-   
-}
-h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: center;
-   
-}
-
-ul {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    text-align: center;
-    list-style-type: square;
-  
-}
-
-.submit {
-    text-align: center;
-    color: white;
-    background-color: black;
-    margin: 80px;
-    
-}
-
-input{
-    display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.1em 0.1em 0;
-    border:0.30em solid rgba(255,255,255,0);
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:500;
-    color:#000000;
-    text-shadow: 0 0.04em 0.04em rgba(74, 71, 71, 0.35);
-    text-align:center;
-
-}
 
 body {
     background-image: url("https://www.spreadsheetweb.com/wp-content/uploads/2018/04/shutterstock_411289672-1080x675.jpg");
 }
 
-footer{
-    text-align: center;
-    font-family:'Roboto',sans-serif;
-    font-weight:500;
-    
-}
-
-.guesses {
-    display: inline;
-    font-size: 20px;
-    border: 2px solid white;
-    border-radius: 10%;
-    padding: 5px 15px;
-    margin: 0 10px;
-    
+ul {
+    list-style: none;
+    padding: 0;
   }
-
-
-
+  
+  img {
+    display: inline;
+  }
+  
+  /* For the div that contains our full application/game */
+  #app {
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256, 256, 256, 0.5)
+  }
+  
+  /* For the div that contains our input element and button element */
+  #input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+  }
+  
+  /* For the input element */
+  #player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+  }
+  
+  /* For the button that says 'Go!' */
+  #submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+  }
+  
+  /* For the last div in the project, that says who made the game */
+  #footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  /* Adding the class 'center' will center the text inside the div */
+  .center {
+    text-align: center;
+  }
+  
+  /* Add the 'guess' class to each list element (li element) */
+  .guess {
+    display: inline;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 0 25px;
+    border-radius: 10%;
+    background-color: white;
+  }
