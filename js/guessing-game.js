@@ -113,6 +113,10 @@ function shuffle(array) {
     location.reload()
   }
 
+  function hint() {
+    document.querySelector('h1').innerHTML = `The winning number is...`
+  }
+
   playGame();
 
 

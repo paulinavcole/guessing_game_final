@@ -32,6 +32,8 @@ ul {
     width: 160px;
     height: 160px;
     font-size: 60px;
+    background-color: black;
+    color: white
   }
   
   /* For the button that says 'Go!' */
@@ -69,5 +71,22 @@ ul {
   }
 
   .reset-button {
-      font-size: 16px;
+      font-size: 20px;
   }
+
+  h1 {
+      color:white;
+      background-color: black;
+  }
+
+  #resetBtn {
+    color:white;
+    background-color: black;
+  }
+
+  #hint {
+    color:white;
+    background-color: black;
+  }
+
+
