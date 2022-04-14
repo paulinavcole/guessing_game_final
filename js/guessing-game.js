@@ -88,10 +88,9 @@ function shuffle(array) {
     return new Game(); //check that old game !== new game
   }
 
-
+  const game = new Game();
   function playGame() {
 
-    const game = new Game();
     
     // We are grabbing the button from our html
     const button = document.getElementById('submit');
@@ -102,6 +101,10 @@ function shuffle(array) {
       const playersGuess = +document.querySelector('input').value;
       document.querySelector('input').value = '';
       game.playersGuessSubmission(playersGuess);
+
+      object.addEventListener("click", myScript);
+      
+      
 
     });
 
@@ -114,7 +117,8 @@ function shuffle(array) {
   }
 
   function hint() {
-    document.querySelector('h1').innerHTML = `The winning number is...`
+    let hint = game.provideHint()
+    document.querySelector('h1').innerHTML = `The winning number is one of these...${hint[0]}, ${hint[1]}, or ${hint[2]}!`
   }
 
   playGame();
