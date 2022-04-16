@@ -2,6 +2,7 @@
 body {
     background-image: url("https://www.spreadsheetweb.com/wp-content/uploads/2018/04/shutterstock_411289672-1080x675.jpg");
     font-family: 'Roboto Serif', serif;
+    color: white;
 }
 
 ul {
@@ -55,13 +56,16 @@ ul {
     background-color: grey;
     position: fixed;
     bottom: 0;
+    color: white;
+    background-image: none;
   }
   
   /* Adding the class 'center' will center the text inside the div */
   .center {
     text-align: center;
-    border: 2px solid black;
     background-color: rgb(205, 203, 203);
+    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
+
   }
   
   /* Add the 'guess' class to each list element (li element) */
@@ -82,7 +86,20 @@ ul {
   h1 {
       color:white;
       background-color: black;
+      background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
   }
+
+  h3{
+    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
+    color: white;
+
+  }
+
+  .guess-list {
+    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
+
+  }
+
 
   #resetBtn {
     color:white;
