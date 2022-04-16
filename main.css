@@ -64,7 +64,6 @@ ul {
   .center {
     text-align: center;
     background-color: rgb(205, 203, 203);
-    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
 
   }
   
@@ -86,19 +85,15 @@ ul {
   h1 {
       color:white;
       background-color: black;
-      background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
+      
   }
 
   h3{
-    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
-    color: white;
+    color: black;
 
   }
 
-  .guess-list {
-    background-image: url("https://images.easytechjunkie.com/green-lit-numbers.jpg");
 
-  }
 
 
   #resetBtn {
@@ -111,4 +106,4 @@ ul {
     background-color: black;
   }
 
-
+ 
